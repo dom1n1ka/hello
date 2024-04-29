@@ -7,42 +7,43 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     <title>Hello, world!</title>
     <style>
-      div.col-1{
-        border:1px OrangeRed;
+      .custom-column{
+        border:1px solid OrangeRed;
         background: DarkOrange;
+        padding:10px;
+        color: white;
       } 
     </style>
   </head>
   <body>
     <div class="row text-center">
-      <div class="col-3">
-        <h1>Dominika's Favorite Fruit</h1>
+      <div class="col-12 custom-column">
+        <h1>Dominika's Favorite Fruit List</h1>
       </div>
     </div>
     <div class="row text-center">
-      <div class="col-1">
-        <h1>image</h1>
+      <div class="col-sm-4 custom-column">
+        <img class="img-fluid" src="https://sumocitrus.com/wp-content/uploads/2021/11/about-top-orange-new.png" class="img-fluid rounded" alt="Sumo Orange Image">
       </div>
-      <div class="col-md-2">
-        <h1>#1 Sumo Oranges</h1>
+      <div class="col-sm-8 custom-column" style="padding:100px";>
+        <h2>#1 Sumo Orange</h2>
+         <a href="https:https://sumocitrus.com/" class="btn btn-outline-light">Learn About Sumo Oranges</a>
       </div>
     </div>
      <div class="row text-center">
-      <div class="col-sm-1">
-        <h1>#2 Sumo Oranges</h1>
+      <div class="col-sm-4 custom-column">
+        <h3>#2 Sumo Orange</h3>
       </div>
-      <div class="col-sm-1">
-        <h1>#3 Sumo Oranges</h1>
+      <div class="col-sm-4 custom-column">
+        <h3>#3 Sumo Orange</h3>
       </div>
-      <div class="col-sm-1">
-        <h1>#4 Passion Fruit</h1>
+      <div class="col-sm-4 custom-column">
+        <h3>#4 Passion Fruit</h3>
       </div>
     </div>
 
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
       
     </script>
